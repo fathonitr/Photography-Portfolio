@@ -10,7 +10,7 @@ const pictures: Pictures[] = [
   { id: 2, title: "lichtenberg", imageUrl: "/lichtenberg.jpeg" },
   { id: 6, title: "lichtenberg2", imageUrl: "/lichtenberg2.jpeg" },
   { id: 4, title: "umar", imageUrl: "/umar.jpg" },
-  { id: 11, title: "alex", imageUrl: "/alex.jpg" },
+  { id: 11, title: "alex", imageUrl: "/alex.JPG" },
   { id: 10, title: "umarutsman", imageUrl: "/umarutsman.jpg" },
   { id: 7, title: "lichtenberg3", imageUrl: "/lichtenberg3.jpeg" },
   { id: 3, title: "novan", imageUrl: "/novan.jpg" },
