@@ -28,7 +28,7 @@ type PageProps = {
   };
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams(): { slug: string }[] {
   return projects.map((project) => ({
     slug: project.slug,
   }));
