@@ -10,15 +10,19 @@ type Pictures = {
 const pictures: Pictures[] = [
   { id: 1, title: "bagus", imageUrl: "/bagus.jpg" },
   { id: 2, title: "lichtenberg", imageUrl: "/lichtenberg.jpeg" },
+  { id: 9, title: "goro", imageUrl: "/goro.jpg" },
   { id: 6, title: "lichtenberg2", imageUrl: "/lichtenberg2.jpeg" },
   { id: 4, title: "umar", imageUrl: "/umar.jpg" },
   { id: 11, title: "alex", imageUrl: "/alex.JPG" },
+  { id: 9, title: "wana", imageUrl: "/wanna.jpg" },
+  { id: 9, title: "rio", imageUrl: "/rio.jpg" },
   { id: 10, title: "umarutsman", imageUrl: "/umarutsman.jpg" },
   { id: 7, title: "lichtenberg3", imageUrl: "/lichtenberg3.jpeg" },
   { id: 3, title: "novan", imageUrl: "/novan.jpg" },
+  { id: 9, title: "fauzi", imageUrl: "/fauzi.jpg" },
   { id: 5, title: "ilham", imageUrl: "/ilham.jpg" },
   { id: 8, title: "kaegar", imageUrl: "/kaegar.jpg" },
-  { id: 9, title: "wana", imageUrl: "/wanna.jpg" },
+  { id: 9, title: "dimas", imageUrl: "/dimas.jpg" },
 ];
 
 export default function Home() {
