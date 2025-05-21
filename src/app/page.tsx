@@ -38,7 +38,7 @@ export default function Home() {
     setIsOpen(false);
   };
   return (
-    <div className="columns-1 sm:columns-2 md:columns-3 gap-4 p-4 space-y-4">
+    <div className="columns-2 sm:columns-2 md:columns-3 gap-4 p-4 space-y-4">
       {pictures.map((item) => (
         <div key={item.id} className="break-inside-avoid overflow-hidden">
           <img src={item.imageUrl} alt={item.title} width={600} height={800} className="w-full h-auto" onClick={() => openLightbox(item)} />
